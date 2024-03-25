@@ -24,11 +24,8 @@ public class CreateTodoHandler : IRequestHandler<CreateTodoCommand, CustomResult
     
     public async Task<CustomResult<Todo>> Handle(CreateTodoCommand request, CancellationToken cancellationToken)
     {
-        string authorizationHeader = _httpContextAccessor.HttpContext.Request.Headers["Authorization"];
         
-        string token = authorizationHeader.Substring("Bearer ".Length).Trim();
-        
-        var claims = await _mediator.Send((new GetClaimsCommand { Token = token }));
+        var claims = await _mediator.Send((new GetClaimsCommand()));
 
         var todo = new Todo
         {
