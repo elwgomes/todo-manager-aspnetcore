@@ -2,6 +2,7 @@ using Application.Common;
 using Application.Common.Interfaces;
 using Application.Security.Token.Command.GetClaims;
 using Application.Todos.Http.Response;
+using Core.Users.Exceptions;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
@@ -29,7 +30,7 @@ public class GetTodoByIdHandler : IRequestHandler<GetTodoByIdCommand, CustomResu
         
         var todo = await _context.Todos.FirstOrDefaultAsync(t => t.Id == request.Id);
         
-        if (todo.UserId != userId) throw new Exception();
+        if (todo.UserId != userId) throw new CustomException();
         
         var response = new TodoHttpResponse(
             todo.Id,

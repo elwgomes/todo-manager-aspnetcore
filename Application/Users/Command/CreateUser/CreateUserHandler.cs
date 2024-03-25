@@ -1,6 +1,7 @@
 using Application.Common;
 using Application.Common.Interfaces;
 using Core.Entities;
+using Core.Users.Exceptions;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
@@ -19,8 +20,8 @@ public class CreateUserHandler : IRequestHandler<CreateUserCommand, CustomResult
     public async Task<CustomResult<User>> Handle(CreateUserCommand request, CancellationToken cancellationToken)
     {
         var validateUsername = await _context.Users.FirstOrDefaultAsync(u => u.Username == request.Username);
-        
-        if (validateUsername != null) throw new Exception();
+
+        if (validateUsername != null) throw new CustomException();
         
         request.Password = BCrypt.Net.BCrypt.HashPassword(request.Password);
         

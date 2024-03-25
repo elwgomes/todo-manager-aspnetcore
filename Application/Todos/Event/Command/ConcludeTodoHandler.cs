@@ -2,6 +2,7 @@ using Application.Common;
 using Application.Common.Interfaces;
 using Application.Security.Token.Command.GetClaims;
 using Application.Todos.Http.Response;
+using Core.Users.Exceptions;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
@@ -28,7 +29,7 @@ public class ConcludeTodoHandler : IRequestHandler<ConcludeTodoCommand, CustomRe
         var userId = Guid.Parse(claims["id"]);
         
         var obj = await _context.Todos.FirstOrDefaultAsync(t => t.Id == request.Id, cancellationToken);
-        if (obj == null || obj.UserId != userId) throw new Exception();
+        if (obj == null || obj.UserId != userId) throw new CustomException();
 
         obj.ConcludedAt = DateTime.Now;
 

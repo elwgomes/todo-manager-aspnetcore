@@ -1,6 +1,7 @@
 using Application.Common;
 using Application.Common.Interfaces;
 using Application.Security.Token.Command.GetClaims;
+using Core.Users.Exceptions;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
@@ -28,7 +29,7 @@ public class DeleteTodoHandler : IRequestHandler<DeleteTodoCommand, CustomResult
         
         var obj = await _context.Todos.FirstOrDefaultAsync(t => t.Id == request.Id, cancellationToken);
         
-        if (obj == null || obj.UserId != userId) throw new Exception();
+        if (obj == null || obj.UserId != userId) throw new CustomException();
         
         _context.Todos.Remove(obj);
         await _context.SaveChangesAsync(cancellationToken);

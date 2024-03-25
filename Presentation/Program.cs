@@ -1,4 +1,5 @@
 using System.Text;
+using Application.Common.Exceptions;
 using Application.Common.Interfaces;
 using Application.Todos.Command.CreateTodo;
 using Application.Users.Command.CreateUser;
@@ -58,6 +59,12 @@ public class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
 
+        // exceptions
+        builder.Services.AddControllers(options =>
+        {
+            options.Filters.Add(typeof(CustomExceptionFilter));
+        });
+        
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
