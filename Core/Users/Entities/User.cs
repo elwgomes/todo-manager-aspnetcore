@@ -8,6 +8,11 @@ public class User
     public DateTime CreatedAt { get; set; }
     public DateTime? LastLogin { get; set; }
 
+    public User()
+    {
+        
+    }
+    
     public User(string username, string password)
     {
         Username = username;

@@ -11,7 +11,7 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
     
     public DbSet<User>? Users { get; set; }
-    public DbSet<Todo> Todos { get; }
+    public DbSet<Todo> Todos { get; set; }
 
     public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
     {
@@ -23,6 +23,5 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext
         builder.ApplyConfiguration(new UserConfiguration());
         builder.ApplyConfiguration(new TodoConfiguration());
         base.OnModelCreating(builder);
-        builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
     }
 }

@@ -26,7 +26,7 @@ public class CreateUserHandler : IRequestHandler<CreateUserCommand, CustomResult
         
         var user = request.ToEntity();
         
-        await _context.Users.AddAsync(user);
+        await _context.Users.AddAsync(user, cancellationToken);
         
         await _context.SaveChangesAsync(cancellationToken);
         
