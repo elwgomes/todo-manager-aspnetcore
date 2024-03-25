@@ -44,6 +44,8 @@ public class Program
             };
         });
         
+        builder.Services.AddHttpContextAccessor();
+        
         // mediatR
         builder.Services.AddMediatR(
             configuration => configuration.RegisterServicesFromAssemblyContaining<CreateUserCommand>());
@@ -67,6 +69,7 @@ public class Program
 
         app.UseHttpsRedirection();
 
+        app.UseAuthentication();
         app.UseAuthorization();
 
 

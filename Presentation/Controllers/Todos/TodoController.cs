@@ -1,9 +1,11 @@
 using Application.Todos.Command.CreateTodo;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Presentation.Controllers.Todos;
 
+[Authorize]
 [ApiController]
 [Route("api/todos")]
 public class TodoController : ControllerBase

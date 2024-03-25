@@ -13,7 +13,13 @@ public class Todo
     {
         
     }
-    
+
+    public Todo(string title, string? description)
+    {
+        Title = title;
+        Description = description;
+    }
+
     public Todo(string title, string? description, DateTime createdAt, Guid userId)
     {
         Title = title;
