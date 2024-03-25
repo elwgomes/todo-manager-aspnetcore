@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "++1sF4KWY9/1zzjdwRXwFPh6iDcAZYCp6hkbigJrN/jhikhwN68KXaXsDENV7UuqH923NNWrAbAoXqY7NUle8Q==",
+  "dgSpecHash": "3QlqYwusFcTutf3SsOJY4w50M1xGhb4acxe8L/YxnPSyMc6r4LNBNGFroszEscjhNgIwvXVezI5S82ltIF6gvw==",
   "success": true,
   "projectFilePath": "/home/leonardo/workspace/dotnet/TodoManager/Presentation/Presentation.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/home/leonardo/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/leonardo/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
     "/home/leonardo/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/leonardo/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.4/microsoft.aspnetcore.authentication.jwtbearer.6.0.4.nupkg.sha512",
     "/home/leonardo/.nuget/packages/microsoft.entityframeworkcore/6.0.0/microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
     "/home/leonardo/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.0/microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",
     "/home/leonardo/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.0/microsoft.entityframeworkcore.analyzers.6.0.0.nupkg.sha512",
@@ -24,6 +25,12 @@
     "/home/leonardo/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "/home/leonardo/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
     "/home/leonardo/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/home/leonardo/.nuget/packages/microsoft.identitymodel.abstractions/7.4.1/microsoft.identitymodel.abstractions.7.4.1.nupkg.sha512",
+    "/home/leonardo/.nuget/packages/microsoft.identitymodel.jsonwebtokens/7.4.1/microsoft.identitymodel.jsonwebtokens.7.4.1.nupkg.sha512",
+    "/home/leonardo/.nuget/packages/microsoft.identitymodel.logging/7.4.1/microsoft.identitymodel.logging.7.4.1.nupkg.sha512",
+    "/home/leonardo/.nuget/packages/microsoft.identitymodel.protocols/6.10.0/microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+    "/home/leonardo/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.10.0/microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
+    "/home/leonardo/.nuget/packages/microsoft.identitymodel.tokens/7.4.1/microsoft.identitymodel.tokens.7.4.1.nupkg.sha512",
     "/home/leonardo/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/home/leonardo/.nuget/packages/mysqlconnector/2.0.0/mysqlconnector.2.0.0.nupkg.sha512",
     "/home/leonardo/.nuget/packages/pomelo.entityframeworkcore.mysql/6.0.0/pomelo.entityframeworkcore.mysql.6.0.0.nupkg.sha512",
@@ -33,6 +40,7 @@
     "/home/leonardo/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "/home/leonardo/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/home/leonardo/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "/home/leonardo/.nuget/packages/system.identitymodel.tokens.jwt/7.4.1/system.identitymodel.tokens.jwt.7.4.1.nupkg.sha512",
     "/home/leonardo/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

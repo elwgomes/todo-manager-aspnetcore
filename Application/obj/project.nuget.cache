@@ -1,13 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "2rU6HeWjK/DYRHQY8vOoJQoAsgzx7MMScKBw5wxv/KVN/xoZpNig2TMVLqsy5/6Vk2cCDHb+7tpDEEgeb6NLNg==",
+  "dgSpecHash": "wy/cKRiVVTGSZRSZnnndvQ1fT2t8cxYZMJsu4ytPv7jE7AkQafFuQBRbwVygMAEaxC5zZelD2chm90bmFAn5dg==",
   "success": true,
   "projectFilePath": "/home/leonardo/workspace/dotnet/TodoManager/Application/Application.csproj",
   "expectedPackageFiles": [
     "/home/leonardo/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/home/leonardo/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
     "/home/leonardo/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
-    "/home/leonardo/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "/home/leonardo/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.4/microsoft.aspnetcore.authentication.jwtbearer.6.0.4.nupkg.sha512",
+    "/home/leonardo/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/leonardo/.nuget/packages/microsoft.identitymodel.abstractions/7.4.1/microsoft.identitymodel.abstractions.7.4.1.nupkg.sha512",
+    "/home/leonardo/.nuget/packages/microsoft.identitymodel.jsonwebtokens/7.4.1/microsoft.identitymodel.jsonwebtokens.7.4.1.nupkg.sha512",
+    "/home/leonardo/.nuget/packages/microsoft.identitymodel.logging/7.4.1/microsoft.identitymodel.logging.7.4.1.nupkg.sha512",
+    "/home/leonardo/.nuget/packages/microsoft.identitymodel.protocols/6.10.0/microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+    "/home/leonardo/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.10.0/microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
+    "/home/leonardo/.nuget/packages/microsoft.identitymodel.tokens/7.4.1/microsoft.identitymodel.tokens.7.4.1.nupkg.sha512",
+    "/home/leonardo/.nuget/packages/system.identitymodel.tokens.jwt/7.4.1/system.identitymodel.tokens.jwt.7.4.1.nupkg.sha512"
   ],
   "logs": []
 }

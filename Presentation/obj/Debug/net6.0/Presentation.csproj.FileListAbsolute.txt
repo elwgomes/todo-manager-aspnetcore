@@ -42,3 +42,11 @@
 /home/leonardo/workspace/dotnet/TodoManager/Presentation/bin/Debug/net6.0/MediatR.dll
 /home/leonardo/workspace/dotnet/TodoManager/Presentation/bin/Debug/net6.0/MediatR.Contracts.dll
 /home/leonardo/workspace/dotnet/TodoManager/Presentation/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/leonardo/workspace/dotnet/TodoManager/Presentation/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/leonardo/workspace/dotnet/TodoManager/Presentation/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/home/leonardo/workspace/dotnet/TodoManager/Presentation/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/leonardo/workspace/dotnet/TodoManager/Presentation/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/home/leonardo/workspace/dotnet/TodoManager/Presentation/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/home/leonardo/workspace/dotnet/TodoManager/Presentation/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/leonardo/workspace/dotnet/TodoManager/Presentation/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/home/leonardo/workspace/dotnet/TodoManager/Presentation/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
