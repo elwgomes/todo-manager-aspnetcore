@@ -20,6 +20,14 @@ public class Todo
         Description = description;
     }
 
+    public Todo(string title, string? description, DateTime createdAt, DateTime? concludedAt)
+    {
+        Title = title;
+        Description = description;
+        CreatedAt = createdAt;
+        ConcludedAt = concludedAt;
+    }
+
     public Todo(string title, string? description, DateTime createdAt, Guid userId)
     {
         Title = title;

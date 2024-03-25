@@ -1,4 +1,5 @@
 using Application.Todos.Command.CreateTodo;
+using Application.Todos.Command.GetAllTodo;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -22,4 +23,11 @@ public class TodoController : ControllerBase
     {
         return Ok(await _mediator.Send(command));
     }
+    
+    [HttpGet]
+    public async Task<ActionResult> GetAllTodo(GetAllTodoCommand command)
+    {
+        return Ok(await _mediator.Send(command));
+    }
+    
 }
