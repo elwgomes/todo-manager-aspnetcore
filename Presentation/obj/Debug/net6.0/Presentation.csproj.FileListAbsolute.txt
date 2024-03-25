@@ -38,3 +38,7 @@
 /home/leonardo/workspace/dotnet/TodoManager/Presentation/obj/Debug/net6.0/ref/Presentation.dll
 /home/leonardo/workspace/dotnet/TodoManager/Presentation/obj/Debug/net6.0/Presentation.pdb
 /home/leonardo/workspace/dotnet/TodoManager/Presentation/obj/Debug/net6.0/Presentation.genruntimeconfig.cache
+/home/leonardo/workspace/dotnet/TodoManager/Presentation/bin/Debug/net6.0/BCrypt.Net-Next.dll
+/home/leonardo/workspace/dotnet/TodoManager/Presentation/bin/Debug/net6.0/MediatR.dll
+/home/leonardo/workspace/dotnet/TodoManager/Presentation/bin/Debug/net6.0/MediatR.Contracts.dll
+/home/leonardo/workspace/dotnet/TodoManager/Presentation/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll

@@ -1,3 +1,5 @@
+using Application.Common.Interfaces;
+using Application.Users.Command.CreateUser;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,8 +20,13 @@ public class Program
                 )
             );
         
+        // mediatR
+        builder.Services.AddMediatR(
+            config => config.RegisterServicesFromAssemblyContaining<CreateUserCommand>());
+        
         // Add services to the container.
-
+        builder.Services.AddScoped<IApplicationDbContext, ApplicationDbContext>();
+        
         builder.Services.AddControllers();
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();

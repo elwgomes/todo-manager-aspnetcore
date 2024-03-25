@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "XDU79q8ReRQ48Ro8yD8Js0qp2R0x3GwufeUP1BFzbpHYpQtsO6GY+O4XZ5iyqv8ZQuCdfLLi43MHBvu+YPA/Ag==",
+  "dgSpecHash": "2rU6HeWjK/DYRHQY8vOoJQoAsgzx7MMScKBw5wxv/KVN/xoZpNig2TMVLqsy5/6Vk2cCDHb+7tpDEEgeb6NLNg==",
   "success": true,
   "projectFilePath": "/home/leonardo/workspace/dotnet/TodoManager/Application/Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/leonardo/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
+    "/home/leonardo/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/home/leonardo/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/leonardo/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
