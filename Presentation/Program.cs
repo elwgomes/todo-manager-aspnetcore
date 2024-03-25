@@ -7,6 +7,7 @@ using Infrastructure.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 
 namespace Presentation;
 
@@ -57,7 +58,31 @@ public class Program
         builder.Services.AddControllers();
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
-        builder.Services.AddSwaggerGen();
+        builder.Services.AddSwaggerGen(c =>
+        {
+            c.SwaggerDoc("v1",
+                new OpenApiInfo { Title = "ToDo Manager w/ Authentication - RESTful API", Version = "V1" });
+            var securitySchema = new OpenApiSecurityScheme
+            {
+                Name = "JWT Authentication",
+                Description = "Need a JWT Bearer token.",
+                In = ParameterLocation.Header,
+                Type = SecuritySchemeType.Http,
+                Scheme = "Bearer",
+                BearerFormat = "JWT",
+                Reference = new OpenApiReference
+                {
+                    Id = JwtBearerDefaults.AuthenticationScheme,
+                    Type = ReferenceType.SecurityScheme
+                }
+            };
+
+            c.AddSecurityDefinition(JwtBearerDefaults.AuthenticationScheme, securitySchema);
+            c.AddSecurityRequirement(new OpenApiSecurityRequirement
+            {
+                { securitySchema, new string[] { } }
+            });
+        });
 
         // exceptions
         builder.Services.AddControllers(options =>
