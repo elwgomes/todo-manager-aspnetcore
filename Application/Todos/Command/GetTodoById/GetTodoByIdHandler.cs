@@ -32,6 +32,7 @@ public class GetTodoByIdHandler : IRequestHandler<GetTodoByIdCommand, CustomResu
         if (todo.UserId != userId) throw new Exception();
         
         var response = new TodoHttpResponse(
+            todo.Id,
             todo.Title,
             todo.Description,
             todo.CreatedAt,

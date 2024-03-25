@@ -35,7 +35,7 @@ public class GetAllTodoHandler : IRequestHandler<GetAllTodoCommand, CustomResult
 
         foreach (var todo in todos)
         {
-            var todoResponse = new TodoHttpResponse(todo.Title, todo.Description, todo.CreatedAt, todo.ConcludedAt);
+            var todoResponse = new TodoHttpResponse(todo.Id, todo.Title, todo.Description, todo.CreatedAt, todo.ConcludedAt);
             todoResponses.Add(todoResponse);
         }
         
