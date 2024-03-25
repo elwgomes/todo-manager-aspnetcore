@@ -1,5 +1,6 @@
 using Application.Todos.Command.CreateTodo;
 using Application.Todos.Command.GetAllTodo;
+using Application.Todos.Command.GetTodoById;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -27,6 +28,13 @@ public class TodoController : ControllerBase
     [HttpGet]
     public async Task<ActionResult> GetAllTodo(GetAllTodoCommand command)
     {
+        return Ok(await _mediator.Send(command));
+    }
+    
+    [HttpGet("{id}")]
+    public async Task<ActionResult> GetTodoById([FromRoute] Guid id)
+    {
+        var command = new GetTodoByIdCommand(id);
         return Ok(await _mediator.Send(command));
     }
     
