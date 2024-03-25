@@ -154,9 +154,6 @@
             "projectReferences": {
               "/home/leonardo/workspace/dotnet/TodoManager/Application/Application.csproj": {
                 "projectPath": "/home/leonardo/workspace/dotnet/TodoManager/Application/Application.csproj"
-              },
-              "/home/leonardo/workspace/dotnet/TodoManager/Core/Core.csproj": {
-                "projectPath": "/home/leonardo/workspace/dotnet/TodoManager/Core/Core.csproj"
               }
             }
           }

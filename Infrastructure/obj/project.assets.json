@@ -1260,7 +1260,6 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Application >= 1.0.0",
-      "Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.0",
@@ -1294,9 +1293,6 @@
           "projectReferences": {
             "/home/leonardo/workspace/dotnet/TodoManager/Application/Application.csproj": {
               "projectPath": "/home/leonardo/workspace/dotnet/TodoManager/Application/Application.csproj"
-            },
-            "/home/leonardo/workspace/dotnet/TodoManager/Core/Core.csproj": {
-              "projectPath": "/home/leonardo/workspace/dotnet/TodoManager/Core/Core.csproj"
             }
           }
         }

@@ -21,11 +21,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Application\Application.csproj" />
-      <ProjectReference Include="..\Core\Core.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\Core\Core.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3QlqYwusFcTutf3SsOJY4w50M1xGhb4acxe8L/YxnPSyMc6r4LNBNGFroszEscjhNgIwvXVezI5S82ltIF6gvw==",
+  "dgSpecHash": "bPooMOlXcTmCZBJp9Sz6jQnM7clduWiH1D5xeFOirbOSZM2xNLT/GWELrjoj+tOuEcd1D/pJ7KlS71KlDd2SsQ==",
   "success": true,
   "projectFilePath": "/home/leonardo/workspace/dotnet/TodoManager/Presentation/Presentation.csproj",
   "expectedPackageFiles": [
