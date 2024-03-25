@@ -1,6 +1,9 @@
 using Application.Todos.Command.CreateTodo;
+using Application.Todos.Command.DeleteTodo;
 using Application.Todos.Command.GetAllTodo;
 using Application.Todos.Command.GetTodoById;
+using Application.Todos.Command.UpdateTodo;
+using Application.Todos.Event.Command;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -26,8 +29,9 @@ public class TodoController : ControllerBase
     }
     
     [HttpGet]
-    public async Task<ActionResult> GetAllTodo(GetAllTodoCommand command)
+    public async Task<ActionResult> GetAllTodo()
     {
+        var command = new GetAllTodoCommand();
         return Ok(await _mediator.Send(command));
     }
     
@@ -37,5 +41,27 @@ public class TodoController : ControllerBase
         var command = new GetTodoByIdCommand(id);
         return Ok(await _mediator.Send(command));
     }
+    
+    [HttpDelete("{id}")]
+    public async Task<ActionResult> DeleteTodo([FromRoute] Guid id)
+    {
+        var command = new DeleteTodoCommand(id);
+        return Ok(await _mediator.Send(command));
+    }
+    
+    [HttpPut("{id}")]
+    public async Task<ActionResult> UpdateTodo(UpdateTodoCommand command, [FromRoute] Guid id)
+    {
+        command.Id = id;
+        return Ok(await _mediator.Send(command));
+    }
+    
+    [HttpPatch("{id}")]
+    public async Task<ActionResult> ConcludeTodo([FromRoute] Guid id)
+    {
+        var command = new ConcludeTodoCommand(id);
+        return Ok(await _mediator.Send(command));
+    }
+    
     
 }

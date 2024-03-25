@@ -13,6 +13,12 @@ public class TodoHttpResponse
         
     }
 
+    public TodoHttpResponse(string title, string? description)
+    {
+        Title = title;
+        Description = description;
+    }
+
     public TodoHttpResponse(Guid id, string title, string? description, DateTime createdAt, DateTime? concludedAt)
     {
         Id = id;
