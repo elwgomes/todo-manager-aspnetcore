@@ -16,8 +16,9 @@ Trata-se de: Prova Prática de Desenvolvimento em C#/.NET: API de TODO/Tarefas
 ## Sobre o projeto
 ### Arquitetura
 Desenvolvido utilizando os princípios da Arquitetura Limpa, e design pattern CQRS (Command Query Responsibility Segregation), seguindo à risca a inversão de dependências, a divisão de responsabilidades e o desacoplamento.
-![Arquitetura](clean-arch-1.jpg "Architecture")
+![Arquitetura](Presentation/clean-arch-1.jpg "Architecture")
 </div> 
+
 
 ### Conceitos
 Esta aplicação também apresenta os princípios SOLID e padrões de design, como o Unit of Work.
