@@ -1,3 +1,6 @@
+using Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
+
 namespace Presentation;
 
 public class Program
@@ -6,6 +9,15 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
+        // db config
+        builder.Services.AddEntityFrameworkMySql()
+            .AddDbContext<ApplicationDbContext>(
+                options => options.UseMySql(
+                    builder.Configuration.GetConnectionString("Database"),
+                    new MySqlServerVersion(new Version(6, 0, 0))
+                )
+            );
+        
         // Add services to the container.
 
         builder.Services.AddControllers();
