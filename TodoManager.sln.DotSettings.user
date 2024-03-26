@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0e21cfbe_002D0778_002D41c0_002Da7aa_002Ded0bda8f9506/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CreateUser_ValidCommand_ReturnsOk" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::94B8A8AF-C824-488F-AD90-DCB33AFD17E2::net6.0::Presentation.AcceptTests.UserControllerTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1ca2e876_002Dcaf7_002D4d8e_002Db93d_002Deb6588a0ea0c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CreateUser_DuplicateUsername_ReturnsBadRequest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::94B8A8AF-C824-488F-AD90-DCB33AFD17E2::net6.0::Presentation.AcceptTests.UserControllerTests.CreateUser_DuplicateUsername_ReturnsBadRequest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

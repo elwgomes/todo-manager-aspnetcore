@@ -22,13 +22,11 @@ public class CreateUserHandler : IRequestHandler<CreateUserCommand, CustomResult
         var validateUsername = await _context.Users.FirstOrDefaultAsync(u => u.Username == request.Username);
 
         if (validateUsername != null) throw new CustomException();
-        
+
         request.Password = BCrypt.Net.BCrypt.HashPassword(request.Password);
-        
+
         var user = request.ToEntity();
-        
         await _context.Users.AddAsync(user, cancellationToken);
-        
         await _context.SaveChangesAsync(cancellationToken);
         
         return new CustomResult<Core.Entities.User>(200, "success", "User has been created.", null);
