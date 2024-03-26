@@ -22,7 +22,7 @@ Desenvolvido utilizando os princípios da Arquitetura Limpa, seguindo à risca a
 
 ### Conceitos
 Esta aplicação também apresenta os princípios SOLID e padrões de design, como CQRS (Command Query Responsibility Segregation) e Unit of Work.<br>
-Também implementa testes unitários para facilitar na clareza dos endpoints, seus retornos e sua manutenção.
+Contém o conceito de testes unitários para facilitar na clareza dos endpoints, seus retornos e sua manutenção.
 
 ### Considerações e melhorias
 A aplicação não é construída pelo Docker, somente o banco de dados, para facilitar aos avaliadores o teste dos endpoints.
