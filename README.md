@@ -41,6 +41,8 @@ A aplicação não é construída pelo Docker, somente o banco de dados, para fa
 - Entity Framework 6.0.0
   - Design
   - Tools
+- XUnit
+  - Moq
 - MySQL
 - Swagger
   - swagger-annotations
