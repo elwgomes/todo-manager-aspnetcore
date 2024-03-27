@@ -50,7 +50,7 @@ A aplicação não é construída pelo Docker, somente o banco de dados, para fa
 
 ## Execução
 
-- Scripts
+- Database
   ### Navegue até a camada de Presentation
   - 1° comando: ``` cd Presentation```
   - 2° comando: ```docker-compose up -d```
