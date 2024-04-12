@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/leonardo/workspace/dotnet/TodoManager/Application/Application.csproj": {}
+    "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Application/Application.csproj": {}
   },
   "projects": {
-    "/home/leonardo/workspace/dotnet/TodoManager/Application/Application.csproj": {
+    "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/leonardo/workspace/dotnet/TodoManager/Application/Application.csproj",
+        "projectUniqueName": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/home/leonardo/workspace/dotnet/TodoManager/Application/Application.csproj",
+        "projectPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Application/Application.csproj",
         "packagesPath": "/home/leonardo/.nuget/packages/",
-        "outputPath": "/home/leonardo/workspace/dotnet/TodoManager/Application/obj/",
+        "outputPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/leonardo/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/leonardo/workspace/dotnet/TodoManager/Core/Core.csproj": {
-                "projectPath": "/home/leonardo/workspace/dotnet/TodoManager/Core/Core.csproj"
+              "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Core/Core.csproj": {
+                "projectPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Core/Core.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "/home/leonardo/workspace/dotnet/TodoManager/Core/Core.csproj": {
+    "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/leonardo/workspace/dotnet/TodoManager/Core/Core.csproj",
+        "projectUniqueName": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "/home/leonardo/workspace/dotnet/TodoManager/Core/Core.csproj",
+        "projectPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Core/Core.csproj",
         "packagesPath": "/home/leonardo/.nuget/packages/",
-        "outputPath": "/home/leonardo/workspace/dotnet/TodoManager/Core/obj/",
+        "outputPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/leonardo/.nuget/NuGet/NuGet.Config"

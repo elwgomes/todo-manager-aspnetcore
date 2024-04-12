@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bPooMOlXcTmCZBJp9Sz6jQnM7clduWiH1D5xeFOirbOSZM2xNLT/GWELrjoj+tOuEcd1D/pJ7KlS71KlDd2SsQ==",
+  "dgSpecHash": "r41U6nhpYP3EltieOn+5mZMsRWHzdlxgLlxoj9c5OQUkjCGX50KunwrPUcuz8LuY1sTRwID0CHRN+AVc5Db3ag==",
   "success": true,
-  "projectFilePath": "/home/leonardo/workspace/dotnet/TodoManager/Presentation/Presentation.csproj",
+  "projectFilePath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Presentation/Presentation.csproj",
   "expectedPackageFiles": [
     "/home/leonardo/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/home/leonardo/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",

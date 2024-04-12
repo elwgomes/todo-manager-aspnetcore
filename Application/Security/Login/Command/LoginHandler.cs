@@ -28,6 +28,10 @@ public class LoginHandler : IRequestHandler<LoginCommand, CustomResult<string>>
         // decode and check password
         if (!BCrypt.Net.BCrypt.Verify(request.Password, user.Password)) throw new CustomException();
 
+        user.LastLogin = DateTime.Now;
+        _context.Users.Update(user);
+        await _context.SaveChangesAsync(cancellationToken);
+        
         var http = new GenerateTokenCommand()
         {
             Id = user.Id,

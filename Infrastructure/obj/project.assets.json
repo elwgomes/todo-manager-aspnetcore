@@ -1272,11 +1272,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/leonardo/workspace/dotnet/TodoManager/Infrastructure/Infrastructure.csproj",
+      "projectUniqueName": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Infrastructure/Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "/home/leonardo/workspace/dotnet/TodoManager/Infrastructure/Infrastructure.csproj",
+      "projectPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Infrastructure/Infrastructure.csproj",
       "packagesPath": "/home/leonardo/.nuget/packages/",
-      "outputPath": "/home/leonardo/workspace/dotnet/TodoManager/Infrastructure/obj/",
+      "outputPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/leonardo/.nuget/NuGet/NuGet.Config"
@@ -1291,8 +1291,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/home/leonardo/workspace/dotnet/TodoManager/Application/Application.csproj": {
-              "projectPath": "/home/leonardo/workspace/dotnet/TodoManager/Application/Application.csproj"
+            "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Application/Application.csproj": {
+              "projectPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Application/Application.csproj"
             }
           }
         }

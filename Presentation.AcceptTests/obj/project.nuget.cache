@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zuHYwJb5cnEaxWcBe61OWS4Z5eEijClmJimhUU2ePON9HeE5apKPZ06VwhVnSRbPEbmQSssdBymTiYluq8Xn5A==",
+  "dgSpecHash": "wJxW/gqycGo5YSdbc1gFzDZz4LNF2S7sWCTZlQcMJftl+YDmN1RjgxkTCtFGo2PoiuHa6znznEE90g/+Se5raQ==",
   "success": true,
-  "projectFilePath": "/home/leonardo/workspace/dotnet/TodoManager/Presentation.AcceptTests/Presentation.AcceptTests.csproj",
+  "projectFilePath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Presentation.AcceptTests/Presentation.AcceptTests.csproj",
   "expectedPackageFiles": [
     "/home/leonardo/.nuget/packages/autofixture/4.18.1/autofixture.4.18.1.nupkg.sha512",
     "/home/leonardo/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
