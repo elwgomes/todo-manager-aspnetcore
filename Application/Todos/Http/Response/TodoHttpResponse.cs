@@ -1,3 +1,5 @@
+using Core.Entities;
+
 namespace Application.Todos.Http.Response;
 
 public class TodoHttpResponse
@@ -7,25 +9,16 @@ public class TodoHttpResponse
     public string? Description { get; }
     public DateTime CreatedAt { get; }
     public DateTime? ConcludedAt { get; }
-
-    public TodoHttpResponse()
-    {
-        
-    }
-
-    public TodoHttpResponse(string title, string? description)
-    {
-        Title = title;
-        Description = description;
-    }
-
-    public TodoHttpResponse(Guid id, string title, string? description, DateTime createdAt, DateTime? concludedAt)
+    public User User { get; set; }
+    
+    public TodoHttpResponse(Guid id, string title, string description, DateTime createdAt, DateTime? concludedAt, User user)
     {
         Id = id;
         Title = title;
         Description = description;
         CreatedAt = createdAt;
         ConcludedAt = concludedAt;
+        User = user;
     }
     
 }

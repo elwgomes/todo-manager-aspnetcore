@@ -5,6 +5,7 @@ using Application.Security.Token.Command.GetClaims;
 using Core.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
 
 namespace Application.Todos.Command.CreateTodo;
 
@@ -27,12 +28,17 @@ public class CreateTodoHandler : IRequestHandler<CreateTodoCommand, CustomResult
         
         var claims = await _mediator.Send((new GetClaimsCommand()));
 
+        var user = await _context.Users.FindAsync(Guid.Parse(claims["id"]));
+            
+        if (user == null) return new CustomResult<Todo>(400, "error", "User not found.", null);
+        
         var todo = new Todo
         {
             Title = request.Title,
             Description = request.Description,
             CreatedAt = DateTime.Now,
-            UserId = Guid.Parse(claims["id"])
+            UserId = Guid.Parse(claims["id"]),
+            User = user
         };
         
         _context.Todos.Add(todo);

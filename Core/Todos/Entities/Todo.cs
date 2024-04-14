@@ -9,6 +9,8 @@ public class Todo
     public DateTime? ConcludedAt { get; set; }
     public Guid UserId { get; set; }
 
+    public User User { get; set; }
+    
     public Todo()
     {
         
@@ -28,11 +30,12 @@ public class Todo
         ConcludedAt = concludedAt;
     }
 
-    public Todo(string title, string? description, DateTime createdAt, Guid userId)
+    public Todo(string title, string? description, DateTime createdAt, Guid userId, User user)
     {
         Title = title;
         Description = description;
         CreatedAt = createdAt;
         UserId = userId;
+        User = user;
     }
 }

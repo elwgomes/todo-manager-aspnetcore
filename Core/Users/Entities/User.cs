@@ -1,3 +1,5 @@
+using System.Text.Json.Serialization;
+
 namespace Core.Entities;
 
 public class User
@@ -8,10 +10,8 @@ public class User
     public DateTime CreatedAt { get; set; }
     public DateTime? LastLogin { get; set; }
 
-    public User()
-    {
-        
-    }
+    [JsonIgnore]
+    public ICollection<Todo> Todos { get; set; }
     
     public User(string username, string password)
     {

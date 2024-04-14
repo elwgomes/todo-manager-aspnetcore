@@ -28,7 +28,9 @@ public class GetTodoByIdHandler : IRequestHandler<GetTodoByIdCommand, CustomResu
         var claims = await _mediator.Send((new GetClaimsCommand()));
         var userId = Guid.Parse(claims["id"]);
         
-        var todo = await _context.Todos.FirstOrDefaultAsync(t => t.Id == request.Id);
+        var todo = await _context.Todos
+            .Include(t => t.User)
+            .FirstOrDefaultAsync(t => t.Id == request.Id);
         
         if (todo.UserId != userId) throw new CustomException();
         
@@ -37,7 +39,8 @@ public class GetTodoByIdHandler : IRequestHandler<GetTodoByIdCommand, CustomResu
             todo.Title,
             todo.Description,
             todo.CreatedAt,
-            todo.ConcludedAt
+            todo.ConcludedAt,
+            todo.User
             );
         
         return new CustomResult<TodoHttpResponse>(200, "success", null, response);

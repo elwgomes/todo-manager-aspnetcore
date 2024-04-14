@@ -29,13 +29,16 @@ public class GetAllTodoHandler : IRequestHandler<GetAllTodoCommand, CustomResult
         
         var userId = Guid.Parse(claims["id"]);
         
-        var todos = await _context.Todos.Where(t => t.UserId == userId).ToListAsync();
+        var todos = await _context.Todos
+            .Where(t => t.UserId == userId)
+            .Include(t => t.User)
+            .ToListAsync();
         
         var todoResponses = new List<TodoHttpResponse>();
 
         foreach (var todo in todos)
         {
-            var todoResponse = new TodoHttpResponse(todo.Id, todo.Title, todo.Description, todo.CreatedAt, todo.ConcludedAt);
+            var todoResponse = new TodoHttpResponse(todo.Id, todo.Title, todo.Description, todo.CreatedAt, todo.ConcludedAt, todo.User);
             todoResponses.Add(todoResponse);
         }
         

@@ -20,5 +20,11 @@ public class TodoConfiguration : IEntityTypeConfiguration<Todo>
 
         builder.Property(t => t.CreatedAt)
             .IsRequired();
+        
+        builder.HasOne(t => t.User)
+            .WithMany(u => u.Todos)
+            .HasForeignKey(t => t.UserId)
+            .IsRequired();
+        
     }  
 }
