@@ -1267,19 +1267,19 @@
     ]
   },
   "packageFolders": {
-    "/home/leonardo/.nuget/packages/": {}
+    "/home/skxlz/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Infrastructure/Infrastructure.csproj",
+      "projectUniqueName": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Infrastructure/Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Infrastructure/Infrastructure.csproj",
-      "packagesPath": "/home/leonardo/.nuget/packages/",
-      "outputPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Infrastructure/obj/",
+      "projectPath": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Infrastructure/Infrastructure.csproj",
+      "packagesPath": "/home/skxlz/.nuget/packages/",
+      "outputPath": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/leonardo/.nuget/NuGet/NuGet.Config"
+        "/home/skxlz/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1291,8 +1291,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Application/Application.csproj": {
-              "projectPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Application/Application.csproj"
+            "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Application/Application.csproj": {
+              "projectPath": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Application/Application.csproj"
             }
           }
         }
@@ -1343,7 +1343,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.127/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.128/RuntimeIdentifierGraph.json"
       }
     }
   }

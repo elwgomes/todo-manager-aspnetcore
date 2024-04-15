@@ -2,6 +2,7 @@ using Application.Common;
 using Application.Common.Interfaces;
 using Application.Security.Token.Command.GetClaims;
 using Application.Todos.Http.Response;
+using Core.Entities;
 using Core.Users.Exceptions;
 using MediatR;
 using Microsoft.AspNetCore.Http;
@@ -33,14 +34,18 @@ public class GetTodoByIdHandler : IRequestHandler<GetTodoByIdCommand, CustomResu
             .FirstOrDefaultAsync(t => t.Id == request.Id);
         
         if (todo.UserId != userId) throw new CustomException();
-        
+        var user = new User
+        {
+            Id = todo.User.Id,
+            Username = todo.User.Username
+        };
         var response = new TodoHttpResponse(
             todo.Id,
             todo.Title,
             todo.Description,
             todo.CreatedAt,
             todo.ConcludedAt,
-            todo.User
+            user
             );
         
         return new CustomResult<TodoHttpResponse>(200, "success", null, response);

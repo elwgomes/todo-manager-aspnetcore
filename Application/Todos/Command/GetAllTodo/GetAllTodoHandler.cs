@@ -35,10 +35,15 @@ public class GetAllTodoHandler : IRequestHandler<GetAllTodoCommand, CustomResult
             .ToListAsync();
         
         var todoResponses = new List<TodoHttpResponse>();
-
+        
         foreach (var todo in todos)
         {
-            var todoResponse = new TodoHttpResponse(todo.Id, todo.Title, todo.Description, todo.CreatedAt, todo.ConcludedAt, todo.User);
+            var user = new User()
+            {
+                Id = todo.User.Id,
+                Username = todo.User.Username
+            };
+            var todoResponse = new TodoHttpResponse(todo.Id, todo.Title, todo.Description, todo.CreatedAt, todo.ConcludedAt, user);
             todoResponses.Add(todoResponse);
         }
         

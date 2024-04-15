@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q1fRq1SFgfol38fu1+5koN1zgABJt3nNLg3n7OvsLvgjSJJjcs2UgO+VO1A5i4irHnPT7LNDu3uPo7ffHox16g==",
+  "dgSpecHash": "XdjDKLlmoXaiDBVSCanRpGMoOjlPjDcmkLF8MgR+x8Sv6wVhbf6DssUf83tYPpSIvowhnyJByDWKziGzv5YC3g==",
   "success": true,
-  "projectFilePath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Core/Core.csproj",
+  "projectFilePath": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Core/Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

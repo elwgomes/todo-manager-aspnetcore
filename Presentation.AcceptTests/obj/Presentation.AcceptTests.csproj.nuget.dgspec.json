@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Presentation.AcceptTests/Presentation.AcceptTests.csproj": {}
+    "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Presentation.AcceptTests/Presentation.AcceptTests.csproj": {}
   },
   "projects": {
-    "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Application/Application.csproj": {
+    "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Application/Application.csproj",
+        "projectUniqueName": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Application/Application.csproj",
-        "packagesPath": "/home/leonardo/.nuget/packages/",
-        "outputPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Application/obj/",
+        "projectPath": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Application/Application.csproj",
+        "packagesPath": "/home/skxlz/.nuget/packages/",
+        "outputPath": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/leonardo/.nuget/NuGet/NuGet.Config"
+          "/home/skxlz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Core/Core.csproj": {
-                "projectPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Core/Core.csproj"
+              "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Core/Core.csproj": {
+                "projectPath": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Core/Core.csproj"
               }
             }
           }
@@ -74,21 +74,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.127/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.128/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Core/Core.csproj": {
+    "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Core/Core.csproj",
+        "projectUniqueName": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Core/Core.csproj",
-        "packagesPath": "/home/leonardo/.nuget/packages/",
-        "outputPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Core/obj/",
+        "projectPath": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Core/Core.csproj",
+        "packagesPath": "/home/skxlz/.nuget/packages/",
+        "outputPath": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/leonardo/.nuget/NuGet/NuGet.Config"
+          "/home/skxlz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -126,21 +126,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.127/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.128/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Infrastructure/Infrastructure.csproj": {
+    "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Infrastructure/Infrastructure.csproj",
-        "packagesPath": "/home/leonardo/.nuget/packages/",
-        "outputPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Infrastructure/obj/",
+        "projectPath": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/skxlz/.nuget/packages/",
+        "outputPath": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/leonardo/.nuget/NuGet/NuGet.Config"
+          "/home/skxlz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -152,8 +152,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Application/Application.csproj": {
-                "projectPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Application/Application.csproj"
+              "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Application/Application.csproj": {
+                "projectPath": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Application/Application.csproj"
               }
             }
           }
@@ -204,21 +204,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.127/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.128/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Presentation.AcceptTests/Presentation.AcceptTests.csproj": {
+    "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Presentation.AcceptTests/Presentation.AcceptTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Presentation.AcceptTests/Presentation.AcceptTests.csproj",
+        "projectUniqueName": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Presentation.AcceptTests/Presentation.AcceptTests.csproj",
         "projectName": "Presentation.AcceptTests",
-        "projectPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Presentation.AcceptTests/Presentation.AcceptTests.csproj",
-        "packagesPath": "/home/leonardo/.nuget/packages/",
-        "outputPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Presentation.AcceptTests/obj/",
+        "projectPath": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Presentation.AcceptTests/Presentation.AcceptTests.csproj",
+        "packagesPath": "/home/skxlz/.nuget/packages/",
+        "outputPath": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Presentation.AcceptTests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/leonardo/.nuget/NuGet/NuGet.Config"
+          "/home/skxlz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -230,8 +230,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Presentation/Presentation.csproj": {
-                "projectPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Presentation/Presentation.csproj"
+              "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Presentation/Presentation.csproj": {
+                "projectPath": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Presentation/Presentation.csproj"
               }
             }
           }
@@ -282,21 +282,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.127/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.128/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Presentation/Presentation.csproj": {
+    "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Presentation/Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Presentation/Presentation.csproj",
+        "projectUniqueName": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Presentation/Presentation.csproj",
         "projectName": "Presentation",
-        "projectPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Presentation/Presentation.csproj",
-        "packagesPath": "/home/leonardo/.nuget/packages/",
-        "outputPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Presentation/obj/",
+        "projectPath": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Presentation/Presentation.csproj",
+        "packagesPath": "/home/skxlz/.nuget/packages/",
+        "outputPath": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Presentation/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/leonardo/.nuget/NuGet/NuGet.Config"
+          "/home/skxlz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -308,8 +308,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/home/leonardo/workspace/dotnet/todo-manager-aspnetcore/Infrastructure/Infrastructure.csproj"
+              "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/skxlz/workspace/dotnet/todo-manager-aspnetcore/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -367,7 +367,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.127/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.128/RuntimeIdentifierGraph.json"
         }
       }
     }
